@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tz.dao.IOrderDetailDAO">
+
+	<!-- 告诉数据库，同一个factory操作的数据允许被缓存：readOnly="true" 
+		<cache ></cache>
+		这样写并且实体类没有序列化(即内存上的数据持久化到硬盘上)会报错
+	-->
+	<cache eviction="FIFO" ></cache>
+	<resultMap type="com.tz.bean.OrderDetail" id="resultOrderDetailMap">
+		<id property="id" column="id" />
+		<result property="detailStatus" column="detailStatus" />
+		<result property="productId" column="productId" />
+		
+		<!-- select指向被关联的查询 ，并传参由主表查询出来的productId-->
+		<association property="productInfo" javaType="com.tz.bean.ProductInfo"
+			select="findProductInfo" column="productId">
+			<id property="id" column="id" />
+			<result property="infoName" column="infoName" />
+			<result property="infoNumber" column="infoNumber" />
+			<result property="infoCost" column="infoCost" />
+			<result property="infoPrice" column="infoPrice" />
+		</association>
+	</resultMap>
+
+	<select id="findOrdetailProductInfo" resultMap="resultOrderDetailMap">
+		SELECT a.id,a.detailStatus,a.productId,b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice 
+		FROM tb_order_detail a ,tb_product_info b WHERE a.productId=b.id
+	</select>
+	
+	<!-- 先查询主表，得到主表的数据对象，主表数据对象操作从表数据对象时去请求从表 -->
+	<!-- 两个findOrderDetailInfo和findProductInfo要产生关系：productId -->
+	<!-- 主表 -->
+	<select id="findOrderDetailInfo" resultMap="resultOrderDetailMap">
+		SELECT a.id,a.detailStatus,a.productId from tb_order_detail a
+	</select>
+	<!-- 如果使用缓存flushCache="true"，从表有82个数据 -->
+	<select id="findProductInfo" parameterType="String" resultType="com.tz.bean.ProductInfo">
+		select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice 
+			FROM tb_product_info b where b.id = #{productId}
+	</select>
+
+</mapper>

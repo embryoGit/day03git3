@@ -1,0 +1,116 @@
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1709366259.
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@65e2dbf3]
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT id,orderNumber,orderStatus,address FROM tb_order WHERE 1=1 AND orderStatus = ? AND orderNumber = ? 
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 已付款(String), 123(String)
+[DEBUG] [2019-07-09 19:02:17] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 0
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1709366259.
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@65e2dbf3]
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT id,orderNumber,orderStatus,address FROM tb_order WHERE 1=1 AND orderStatus = ? AND orderNumber = ? 
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 已付款(String), D2019033115032746777779541229334(String)
+[DEBUG] [2019-07-09 19:02:34] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-09 21:25:21] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 21:25:21] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:25:21] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:25:21] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:25:21] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:30:53] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 21:30:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:30:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:30:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:30:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:34:12] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 21:34:12] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:34:12] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:34:12] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:34:12] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:35:20] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 21:35:20] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:35:20] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:35:20] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:35:20] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 601893033.
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9]
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT id,orderNumber,orderStatus,address FROM tb_order WHERE 1=1 AND orderNumber IN( ? , ? ) 
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: D2019033114252838877779340742959(String), D2019033114571210677779406178800(String)
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 2
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9]
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9]
+[DEBUG] [2019-07-09 21:35:21] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 601893033 to pool.
+[DEBUG] [2019-07-09 23:18:05] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 23:18:05] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:18:05] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:18:05] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:18:05] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1241276575.
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@49fc609f]
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT id,orderNumber,orderStatus,address FROM tb_order WHERE 1=1 AND orderNumber IN( ? , ? ) 
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: D2019033114252838877779340742959(String), D2019033114571210677779406178800(String)
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 2
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@49fc609f]
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@49fc609f]
+[DEBUG] [2019-07-09 23:18:06] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1241276575 to pool.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1522311648.
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====>  Preparing: select b.id,b.infoName,b.infoNumber, b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====> Parameters: 4(String)
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <====      Total: 1
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====>  Preparing: select b.id,b.infoName,b.infoNumber, b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====> Parameters: 3(String)
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <====      Total: 1
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====>  Preparing: select b.id,b.infoName,b.infoNumber, b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====> Parameters: 1(String)
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <====      Total: 1
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====>  Preparing: select b.id,b.infoName,b.infoNumber, b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====> Parameters: 2(String)
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <====      Total: 1
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====>  Preparing: select b.id,b.infoName,b.infoNumber, b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ====> Parameters: 5(String)
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <====      Total: 1
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+[DEBUG] [2019-07-09 23:19:40] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1522311648 to pool.
+[DEBUG] [2019-07-09 23:19:41] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.14285714285714285
+[DEBUG] [2019-07-09 23:19:41] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.25
+[DEBUG] [2019-07-09 23:20:46] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-09 23:20:46] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:20:46] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:20:46] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:20:46] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-09 23:20:46] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1241276575.
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@49fc609f]
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT id,orderNumber,orderStatus,address FROM tb_order WHERE 1=1 AND orderNumber IN( ? , ? ) 
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: D2019033114252838877779340742959(String), D2019033114571210677779406178800(String)
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 2
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@49fc609f]
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@49fc609f]
+[DEBUG] [2019-07-09 23:20:47] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1241276575 to pool.

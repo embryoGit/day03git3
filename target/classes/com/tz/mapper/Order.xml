@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tz.dao.IOrderDAO">
+	<resultMap type="com.tz.bean.Order" id="resultOrderMap">
+		<result property="orderNumbers" column="orderNumber" />
+		<result property="orderStatuss" column="orderStatus" />
+		<result property="address" column="address" />
+	</resultMap>
+	<parameterMap type="com.tz.bean.Order" id="parameterOrderMap">
+		<parameter property="orderNumbers" resultMap="resultOrderMap"/>
+	</parameterMap>
+	<sql id="whereSQL">
+		WHERE 1=1
+		<if test="orderStatuss != null">
+			AND orderStatus = #{orderStatuss}
+		</if>
+		<if test="orderNumbers != null">
+			AND orderNumber = #{orderNumbers}
+		</if>
+	</sql>
+
+	<select id="findOrderByCondition" parameterType="String" resultMap="resultOrderMap">
+		SELECT id,orderNumber,orderStatus,address
+			FROM tb_order <include refid="whereSQL"></include>
+	</select>
+	
+	<select id="findOrderByOrderNumber" parameterType="List" resultMap="resultOrderMap">
+		SELECT id,orderNumber,orderStatus,address FROM tb_order WHERE 1=1
+		<!-- onsList ：传入List<String>的别名 -->
+		<foreach collection="onsList" item="number" 
+			open="AND orderNumber IN(" close=")" separator=",">
+			#{number}	
+		</foreach>
+	<!-- SELECT id,orderNumber,orderStatus,address 
+			FROM tb_order WHERE 1=1 AND orderNumber IN( ? , ? )  -->
+	</select>
+	
+	
+</mapper>

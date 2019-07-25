@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="db.properties"></properties>
+	<settings>
+<!-- 		<setting name="logImpl" value="LOG4J"/>配置log4j日志处理 -->
+		<!-- 延迟加载 -->
+		<setting name="lazyLoadingEnabled" value="true"/><!-- 设置全局延迟加载开关为开的状态 -->
+		<setting name="aggressiveLazyLoading" value="false"/><!-- 所有的懒加载的对象任何属性都不加载 -->
+		
+		<!-- 二级缓存，默认是false --><!-- <setting name="cacheEnabled" value="false"/> -->
+		<setting name="cacheEnabled" value="true"/>
+	</settings>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- 配置映射文件，管理数据库对象和java对象的映射关系 -->
+	<mappers>
+		<mapper resource="com/tz/mapper/Order.xml" />
+		<mapper resource="com/tz/mapper/OrderDetail.xml" />
+	</mappers>
+</configuration>

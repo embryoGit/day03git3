@@ -1,0 +1,690 @@
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:53] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1668627309.
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1668627309 to pool.
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.011494252873563218
+[DEBUG] [2019-07-17 09:56:54] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.022727272727272728
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1668627309.
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1668627309 to pool.
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(379) | Checked out connection 1668627309 from pool.
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1668627309 to pool.
+[DEBUG] [2019-07-17 10:08:50] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.011363636363636364
+[DEBUG] [2019-07-17 10:10:11] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-17 10:10:11] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:10:11] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:10:11] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:10:11] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1668627309.
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1668627309 to pool.
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.011494252873563218
+[DEBUG] [2019-07-17 10:10:12] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.022727272727272728
+[DEBUG] [2019-07-17 10:18:48] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 36202360.
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 4(String)
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 3(String)
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 1(String)
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:18:49] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 2(String)
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: select b.id,b.infoName,b.infoNumber,b.infoCost,b.infoPrice FROM tb_product_info b where b.id = ? 
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 5(String)
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 1
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 36202360 to pool.
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(379) | Checked out connection 36202360 from pool.
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 36202360 to pool.
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(379) | Checked out connection 36202360 from pool.
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:18:50] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 36202360 to pool.
+[DEBUG] [2019-07-17 10:21:07] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-17 10:21:07] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:21:07] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:21:07] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:21:07] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:21:07] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 36202360.
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 36202360 to pool.
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(379) | Checked out connection 36202360 from pool.
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 36202360 to pool.
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(379) | Checked out connection 36202360 from pool.
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2286778]
+[DEBUG] [2019-07-17 10:21:08] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 36202360 to pool.
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.logging.LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(316) | PooledDataSource forcefully closed/removed all connections.
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:22:15] org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(136) | Opening JDBC Connection
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(387) | Created connection 1668627309.
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(100) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==>  Preparing: SELECT a.id,a.detailStatus,a.productId from tb_order_detail a 
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | ==> Parameters: 
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(145) | <==      Total: 82
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.0
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(122) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(90) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@63753b6d]
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(344) | Returned connection 1668627309 to pool.
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.2
+[DEBUG] [2019-07-17 10:22:16] org.apache.ibatis.cache.decorators.LoggingCache.getObject(62) | Cache Hit Ratio [com.tz.dao.IOrderDetailDAO]: 0.3333333333333333
